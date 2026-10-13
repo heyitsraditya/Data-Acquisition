@@ -1,0 +1,7 @@
+Tahap,Aktivitas Utama,Contoh Tools,Risiko Jika Diabaikan
+Acquisition,"Mengumpulkan data mentah dari berbagai sumber seperti API, web, dan basis data","Requests, BeautifulSoup","Data yang didapat tidak valid, terputus, atau melanggar aturan privasi"
+Storage,Menyimpan data mentah dan terolah secara aman serta terorganisir,"PostgreSQL, AWS S3",Terjadi kehilangan data (data loss) dan akses data menjadi lambat
+Cleaning,"Mendeteksi dan menangani nilai hilang (missing values), duplikasi, dan outlier","Pandas, OpenRefine","Hasil analisis menjadi bias dan menyesatkan (Garbage In, Garbage Out)"
+Transformation,"Mengubah bentuk, struktur, serta agregasi data agar siap dianalisis","Pandas, dbt",Data sulit diintegrasikan dan format tidak konsisten
+Analysis,"Melakukan eksplorasi data, pemodelan statistik, dan machine learning","Scikit-Learn, NumPy",Keputusan bisnis diambil berdasarkan model atau asumsi yang salah
+Delivery,"Menyajikan hasil analisis dalam bentuk laporan, visualisasi, atau dashboard","Power BI, Tableau",Informasi gagal dipahami oleh pemangku kepentingan (stakeholder)
